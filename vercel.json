@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "regions": ["sin1"],        
+  "functions": {
+    "api/**/*.ts": {      
+      "memory": 128,
+      "maxDuration": 10
+    }
+  }
+}
